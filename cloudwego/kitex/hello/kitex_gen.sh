@@ -1,0 +1,1 @@
+kitex -module "github.com/ahang7/go-hello" -service helloservice hello.thrift 
