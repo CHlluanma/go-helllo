@@ -1,0 +1,2 @@
+# 排除所有 output 目录
+**/output/
