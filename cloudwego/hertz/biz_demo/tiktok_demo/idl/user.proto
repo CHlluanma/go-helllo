@@ -1,0 +1,57 @@
+syntax = "proto3";
+
+package user;
+
+import "api.proto";
+import "common.proto";
+
+option go_package = "basic/user";
+
+message DouyinUserRegisterRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message DouyinUserRegisterResponse {
+    int32 status_code = 1[(api.go_tag)="json:\"status_code\""];
+    string status_msg = 2;
+    int64 user_id = 3;
+    string token = 4;
+}
+
+message DouyinUserLoginRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message DouyinUserLoginResponse {
+    int32 status_code = 1[(api.go_tag)="json:\"status_code\""];
+    string status_msg = 2;
+    int64 user_id = 3;
+    string token = 4;
+}
+
+message DouyinUserRequest {
+    int64 user_id = 1;
+    string token = 2;
+}
+
+message DouyinUserResponse {
+    int32 status_code = 1[(api.go_tag)="json:\"status_code\""];
+    string status_msg = 2;
+    User user = 3;
+}
+
+service UserService {
+    rpc User(DouyinUserRequest) returns (DouyinUserResponse) {
+        option (api.get) = "douyin/user/";
+    }
+
+    rpc UserLogin(DouyinUserLoginRequest) returns (DouyinUserLoginResponse) {
+        option (api.post) = "douyin/user/login/";
+    }
+
+    rpc UserRegister(DouyinUserRegisterRequest) returns (DouyinUserRegisterResponse) {
+        option (api.post) = "douyin/user/register/";
+    }
+}

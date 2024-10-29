@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+package relation;
+
+import "api.proto";
+import "common.proto";
+
+option go_package = "social/relation";
+
+message DouyinRelationActionRequest {
+    string token = 1;
+    int64 to_user_id = 2;
+    int32 action_type = 3; // 1-关注，2-取消关注
+}
+
+message DouyinRelationActionResponse {
+    int32 status_code = 1[(api.go_tag) = "json:\"status_code\"" ];
+    string status_msg = 2;
+}
+
+message DouyinRelationFollowListRequest {
+    int64 user_id = 1;
+    string token = 2;
+}
+
+message DouyinRelationFollowListResponse {
+    int32 status_code = 1[(api.go_tag) = "json:\"status_code\"" ];
+    string status_msg = 2;
+    repeated User user_list = 3;
+}
+
+message DouyinRelationFollowerListRequest {
+    int64 user_id = 1;
+    string token = 2;
+}
+
+message DouyinRelationFollowerListResponse {
+    int32 status_code = 1[(api.go_tag) = "json:\"status_code\"" ];
+    string status_msg = 2;
+    repeated User user_list = 3;
+}
+
+message DouyinRelationFriendListRequest {
+    int64 user_id = 1;
+    string token = 2;
+}
+
+message DouyinRelationFriendListResponse {
+    int32 status_code = 1[(api.go_tag) = "json:\"status_code\"" ];
+    string status_msg = 2;
+    repeated FriendUser friend_list = 3;
+}
+
+message FriendUser {
+    message User {
+        User user = 1;
+    }
+    string message = 2;
+    int64 msg_type = 3; // message type，0 - Messages currently requested by the user，1 - Messages sent by the current requesting user
+}
+
+service RelationService {
+    rpc RelationAction(DouyinRelationActionRequest) returns(DouyinRelationActionResponse){
+        option (api.post) = "/douyin/relation/action/";
+    }
+
+    rpc RelationFollowList(DouyinRelationFollowListRequest) returns(DouyinRelationFollowListResponse){
+        option (api.get) = "/douyin/relation/follow/list/";
+    }
+
+    rpc RelationFollowerList(DouyinRelationFollowerListRequest) returns(DouyinRelationFollowerListResponse){
+        option (api.get) = "/douyin/relation/follower/list/";
+    }
+
+    rpc RelationFriendList(DouyinRelationFollowerListRequest) returns(DouyinRelationFollowerListResponse){
+        option (api.get) = "/douyin/relation/friend/list/";
+    }
+}
