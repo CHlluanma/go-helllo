@@ -5,7 +5,7 @@ package relation
 import (
 	"context"
 
-	relation "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/social/relation"
+	relation "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/social/relation"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 )

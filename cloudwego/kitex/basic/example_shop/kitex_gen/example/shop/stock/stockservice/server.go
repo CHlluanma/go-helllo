@@ -2,7 +2,7 @@
 package stockservice
 
 import (
-	stock "github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
+	stock "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
 	server "github.com/cloudwego/kitex/server"
 )
 

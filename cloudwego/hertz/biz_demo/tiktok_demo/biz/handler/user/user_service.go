@@ -5,7 +5,7 @@ package user
 import (
 	"context"
 
-	user "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/basic/user"
+	user "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/basic/user"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 )

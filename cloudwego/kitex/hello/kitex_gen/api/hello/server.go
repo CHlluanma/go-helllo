@@ -2,7 +2,7 @@
 package hello
 
 import (
-	api "github.com/ahang7/go-hello/cloudwego/kitex/hello/kitex_gen/api"
+	api "github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api"
 	server "github.com/cloudwego/kitex/server"
 )
 

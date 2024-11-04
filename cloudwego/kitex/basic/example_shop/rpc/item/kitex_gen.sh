@@ -5,4 +5,4 @@
 # -use 参数表示让 kitex 不生成 kitex_gen 目录，而使用该选项给出的 import path。在本例中因为第一次已经生成 kitex_gen 目录了，后面都可以复用。
 # 最后一个参数则为该服务的 IDL 文件
 # 
-kitex -module github.com/ahang7/go-hello -service example.shop.item -use github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen ../../idl/item.thrift
+kitex -module github.com/CHlluanma/go-hello -service example.shop.item -use github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen ../../idl/item.thrift

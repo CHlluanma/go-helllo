@@ -3,7 +3,7 @@
 package user_gorm
 
 import (
-	user_gorm "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/handler/user_gorm"
+	user_gorm "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/handler/user_gorm"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

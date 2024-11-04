@@ -3,7 +3,7 @@
 package feed
 
 import (
-	feed "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/feed"
+	feed "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/feed"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

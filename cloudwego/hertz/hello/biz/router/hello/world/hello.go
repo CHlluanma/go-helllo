@@ -3,7 +3,7 @@
 package world
 
 import (
-	world "github.com/ahang7/go-hello/cloudwego/hertz/hello/biz/handler/hello/world"
+	world "github.com/CHlluanma/go-hello/cloudwego/hertz/hello/biz/handler/hello/world"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

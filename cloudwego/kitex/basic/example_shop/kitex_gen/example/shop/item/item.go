@@ -5,7 +5,7 @@ package item
 import (
 	"context"
 	"fmt"
-	"github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/base"
+	"github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/base"
 	thrift "github.com/cloudwego/kitex/pkg/protocol/bthrift/apache"
 	"strings"
 )

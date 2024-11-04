@@ -1,1 +1,1 @@
-kitex -module "github.com/ahang7/go-hello" -service helloservice hello.thrift 
+kitex -module "github.com/CHlluanma/go-hello" -service helloservice hello.thrift 

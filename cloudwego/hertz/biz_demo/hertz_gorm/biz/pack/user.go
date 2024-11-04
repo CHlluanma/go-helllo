@@ -1,8 +1,8 @@
 package pack
 
 import (
-	"github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/hertz_gen/user_gorm"
-	"github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
+	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/hertz_gen/user_gorm"
+	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
 )
 
 func Users(models []*model.User) []*user_gorm.User {

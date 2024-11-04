@@ -3,7 +3,7 @@
 package relation
 
 import (
-	relation "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/relation"
+	relation "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/relation"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

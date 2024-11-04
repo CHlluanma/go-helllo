@@ -5,7 +5,7 @@ package favorite
 import (
 	"context"
 
-	favorite "github.com/ahang7/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/interact/favorite"
+	favorite "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/interact/favorite"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 )

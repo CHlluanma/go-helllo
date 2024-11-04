@@ -5,7 +5,7 @@ package itemservice
 import (
 	"context"
 	"errors"
-	item "github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
+	item "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
 )

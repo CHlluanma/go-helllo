@@ -2,7 +2,7 @@
 package itemservice
 
 import (
-	item "github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
+	item "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
 	server "github.com/cloudwego/kitex/server"
 )
 

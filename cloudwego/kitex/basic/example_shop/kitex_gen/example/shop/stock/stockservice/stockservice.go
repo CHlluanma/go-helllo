@@ -5,7 +5,7 @@ package stockservice
 import (
 	"context"
 	"errors"
-	stock "github.com/ahang7/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
+	stock "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
 )
