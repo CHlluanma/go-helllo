@@ -5,10 +5,10 @@ package user_gorm
 import (
 	"context"
 
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/dal/mysql"
-	user_gorm "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/hertz_gen/user_gorm"
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/pack"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/dal/mysql"
+	user_gorm "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/hertz_gen/user_gorm"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/pack"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 )

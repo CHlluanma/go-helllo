@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	api "github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api"
+	api "github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api"
 )
 
 // HelloImpl implements the last service interface defined in the IDL.

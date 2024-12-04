@@ -4,7 +4,7 @@ package itemservice
 
 import (
 	"context"
-	item "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
+	item "github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
 )

@@ -1,4 +1,4 @@
-module github.com/CHlluanma/go-hello
+module github.com/chhz0/go-hello
 
 go 1.23.2
 

@@ -3,7 +3,7 @@
 package message
 
 import (
-	message "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/message"
+	message "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/message"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

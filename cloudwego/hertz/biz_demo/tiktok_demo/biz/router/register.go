@@ -3,13 +3,13 @@
 package router
 
 import (
-	comment "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/comment"
-	favorite "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/favorite"
-	feed "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/feed"
-	message "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/message"
-	publish "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/publish"
-	relation "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/relation"
-	user "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/user"
+	comment "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/comment"
+	favorite "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/favorite"
+	feed "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/feed"
+	message "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/message"
+	publish "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/publish"
+	relation "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/relation"
+	user "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/router/user"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

@@ -5,7 +5,7 @@ package publish
 import (
 	"context"
 
-	publish "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/basic/publish"
+	publish "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/basic/publish"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	stock "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
+	stock "github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
 )
 
 // StockServiceImpl implements the last service interface defined in the IDL.

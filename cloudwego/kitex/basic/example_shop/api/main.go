@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item/itemservice"
+	"github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
+	"github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item/itemservice"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/cloudwego/kitex/client"

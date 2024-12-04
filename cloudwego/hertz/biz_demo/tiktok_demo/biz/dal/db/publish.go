@@ -3,7 +3,7 @@ package db
 import (
 	"time"
 
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/pkg/constants"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/pkg/constants"
 )
 
 type Video struct {

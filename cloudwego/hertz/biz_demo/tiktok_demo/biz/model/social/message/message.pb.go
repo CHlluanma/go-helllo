@@ -7,7 +7,7 @@
 package message
 
 import (
-	_ "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/api"
+	_ "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/model/api"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -4,7 +4,7 @@ package hello
 
 import (
 	"context"
-	api "github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api"
+	api "github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
 )

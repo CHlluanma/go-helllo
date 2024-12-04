@@ -3,7 +3,7 @@
 package publish
 
 import (
-	publish "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/publish"
+	publish "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/publish"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

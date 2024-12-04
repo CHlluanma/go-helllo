@@ -3,7 +3,7 @@
 package router
 
 import (
-	hello_world "github.com/CHlluanma/go-hello/cloudwego/hertz/hello/biz/router/hello/world"
+	hello_world "github.com/chhz0/go-hello/cloudwego/hertz/hello/biz/router/hello/world"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

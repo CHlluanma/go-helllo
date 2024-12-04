@@ -3,7 +3,7 @@
 package user
 
 import (
-	user "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/user"
+	user "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/user"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

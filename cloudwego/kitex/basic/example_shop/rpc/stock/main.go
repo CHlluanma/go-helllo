@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	stock "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock/stockservice"
+	stock "github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock/stockservice"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"
 	etcd "github.com/kitex-contrib/registry-etcd"

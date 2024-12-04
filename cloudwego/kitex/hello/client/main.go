@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api"
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api/hello"
+	"github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api"
+	"github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api/hello"
 	"github.com/cloudwego/kitex/client"
 )
 

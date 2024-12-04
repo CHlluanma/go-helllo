@@ -3,7 +3,7 @@
 package comment
 
 import (
-	comment "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/comment"
+	comment "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/comment"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

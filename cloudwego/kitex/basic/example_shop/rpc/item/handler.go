@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	item "github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock/stockservice"
+	item "github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/item"
+	"github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock"
+	"github.com/chhz0/go-hello/cloudwego/kitex/basic/example_shop/kitex_gen/example/shop/stock/stockservice"
 	"github.com/cloudwego/kitex/client"
 	etcd "github.com/kitex-contrib/registry-etcd"
 )

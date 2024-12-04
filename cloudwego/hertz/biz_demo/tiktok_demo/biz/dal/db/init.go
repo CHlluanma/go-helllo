@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/pkg/constants"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/pkg/constants"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	gormopentracing "gorm.io/plugin/opentracing"

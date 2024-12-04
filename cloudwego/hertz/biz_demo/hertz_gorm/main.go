@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/dal"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/dal"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

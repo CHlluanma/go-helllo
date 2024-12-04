@@ -5,7 +5,7 @@ package hello
 import (
 	"context"
 	"errors"
-	api "github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api"
+	api "github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
 )

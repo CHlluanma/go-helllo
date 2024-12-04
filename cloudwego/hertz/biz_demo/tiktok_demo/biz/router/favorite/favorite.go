@@ -3,7 +3,7 @@
 package favorite
 
 import (
-	favorite "github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/favorite"
+	favorite "github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/tiktok_demo/biz/handler/favorite"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
 

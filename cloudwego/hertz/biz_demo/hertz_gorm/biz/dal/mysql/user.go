@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"github.com/CHlluanma/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
+	"github.com/chhz0/go-hello/cloudwego/hertz/biz_demo/hertz_gorm/biz/model"
 )
 
 func CreateUser(users []*model.User) error {

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/CHlluanma/go-hello/cloudwego/kitex/hello/kitex_gen/api/hello"
+	"github.com/chhz0/go-hello/cloudwego/kitex/hello/kitex_gen/api/hello"
 )
 
 func main() {
